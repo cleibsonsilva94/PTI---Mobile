@@ -1,5 +1,6 @@
-1. CardPrato.tsx
+## 1. CardPrato.tsx
 
+```tsx
 const CardPrato = ({ nome, calorias, preco, imagem, onPress }) => {
   return (
     <TouchableOpacity onPress={onPress} style={styles.card}>
@@ -12,6 +13,7 @@ const CardPrato = ({ nome, calorias, preco, imagem, onPress }) => {
     </TouchableOpacity>
   );
 };
+
 
 2. HomeScreen.tsx
 
@@ -41,6 +43,7 @@ const HomeScreen = () => {
     </ScrollView>
   );
 };
+
 
 3. DetalhesScreen.tsx
 
