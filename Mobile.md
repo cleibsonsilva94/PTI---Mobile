@@ -1,6 +1,6 @@
-## 1. CardPrato.tsx
-
 ```tsx
+1. CardPrato.tsx
+
 const CardPrato = ({ nome, calorias, preco, imagem, onPress }) => {
   return (
     <TouchableOpacity onPress={onPress} style={styles.card}>
